@@ -74,7 +74,7 @@ The actuator provides us insight about spring project such as:
 
    5) Provides project metrics such as CPU usage, Memory usage, etc
    ...
-Actuator:
+Actuators:
 
 The following steps are needed to get boot actuator feature:
 1) The following starter dependency should be added in pom.xml file:
@@ -102,5 +102,15 @@ The following steps are needed to get boot actuator feature:
    c) Add below properties in application.properties/yml file:
       security.user.name=test
       security.user.password=test123
+      
+      To Access Actuators
+      http://localhost:9090/metrics
+      http://localhost:9090/beans
+      http://localhost:9090/health
+      http://localhost:9090/autoconfig
+      http://localhost:9090/env
+      
+      Add Json Viewer extention in browser for better view.
+      
           
     
