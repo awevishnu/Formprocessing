@@ -30,7 +30,7 @@ public class DemoRootConfig {
 
 		lsfb.setHibernateProperties(props);
 		lsfb.setMappingResources(new String[] { "Customer.hbm.xml" });
-System.out.println("System=====");
+        System.out.println("System=====");
 		return lsfb;
 	}
 
